@@ -3,22 +3,22 @@
     padding-bottom: 94px;
 }
 
-.feature-list {
+.specifics-list {
     display: flex;
 
 }
 
 
 
-.feature-list .feature-iteam:not(:last-child) {
+.specifics-list__iteam:not(:last-child) {
     margin-right: 30px;
 }
 
-.feature-list .feature-list {
+.specifics-list__iteam {
     width: 270px;
 }
 
-.feature-iteam-svg-background {
+.container-icon {
     display: flex;
     background-color: var(--primary-team-color);
     border-radius: 4px;
@@ -26,21 +26,21 @@
     justify-content: center;
 }
 
-.feature-iteam-icon {
+.specifics-list__icon {
     height: 120px;
 }
 
-.specifics .member-title {
+.specifics-list__title {
 
     margin-bottom: 10px;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-
+    
 }
 
-.subtitle {
+.specifics-list__subtitle {
     margin-top: 0;
     margin-bottom: 0;
 
