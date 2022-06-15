@@ -129,7 +129,7 @@ p {
     overflow: hidden;
 }*
 
-/* <!--Навігація -->*/
+*/* <!--Навігація -->*/
 
 
 
@@ -221,16 +221,16 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     align-items: center;
 
-}
+}*
 
 
 /* Контакти */
-.contact {
+*.contact {
     margin-left: auto;
 }
 .contacts-item:not(:last-child) {
     margin-right: 50px;
-}
+}*
 
 
 
@@ -252,9 +252,9 @@ background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 
     background-size: cover;
 }
 *
-.footer {
+*.footer {
     background-color: var(--primary-hero-footer-color);
-}
+}*
 
 *.hero-title {
    
@@ -297,7 +297,7 @@ font-weight: 700;
     background-color: var(--button-hover-color);
 }*
 /* <!--секція особливості-->*/
-.specifics {
+*.specifics {
   padding-top: 94px;  
   padding-bottom: 94px;
 }
@@ -307,9 +307,7 @@ font-weight: 700;
    
 }
 
-/*.feature-list .feature-iteam+.feature-iteam {
-    margin-left: 30px;
-}*/
+
 
 .feature-list .feature-iteam:not(:last-child) {
     margin-right: 30px;
@@ -348,10 +346,10 @@ font-weight: 700;
     font-size: 14px;
     line-height: 1.71;
     color: var(--primary-subtitle-color);
-}
+}*
 
 /* < !--Чем мы занимаемся--> */
-.doing {
+*.doing {
     padding-top: 0px;
     padding-bottom: 94px;
 }
@@ -397,11 +395,11 @@ text-align: center;
                     text-transform: uppercase;
     }
 
-
+*
 
 /* < !--Наша команда--> */
 
-.member-list {
+*.member-list {
     display: flex;
         text-align: center;
        
@@ -489,9 +487,9 @@ padding-top: 94px;
 .media-icon:focus .social-media-icon {
 fill: var(--white-color);
 }
-
+*
 /* Наші клієнти */
-.section-title.clients {
+*.section-title.clients {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -531,10 +529,10 @@ fill: var(--white-color);
         .our-clients-list-item-link:hover .our-clients-icon,
         .our-clients-list-item-link:focus .our-clients-icon {
             fill: var(--accent-color);
-        }
+        }*
 
 /* < !--підвал--> */
-.footer {
+*.footer {
     padding-bottom: 60px;
         padding-top: 60px;
         color: var(--white-color);
@@ -639,7 +637,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-media-icon {
     fill: var(--white-color);
 }
-
+*
 /* Підписка */
 
 *.footer-form-title {

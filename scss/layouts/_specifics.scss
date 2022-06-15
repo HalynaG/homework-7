@@ -1,0 +1,50 @@
+.specifics {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.feature-list {
+    display: flex;
+
+}
+
+
+
+.feature-list .feature-iteam:not(:last-child) {
+    margin-right: 30px;
+}
+
+.feature-list .feature-list {
+    width: 270px;
+}
+
+.feature-iteam-svg-background {
+    display: flex;
+    background-color: var(--primary-team-color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.feature-iteam-icon {
+    height: 120px;
+}
+
+.specifics .member-title {
+
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+
+}
+
+.subtitle {
+    margin-top: 0;
+    margin-bottom: 0;
+
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-subtitle-color);
+}
