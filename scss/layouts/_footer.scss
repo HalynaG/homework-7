@@ -5,7 +5,7 @@
     background-color: var(--primary-hero-footer-color);
 }
 
-.footer .container {
+.join {
     display: flex;
     align-items: baseline;
 }
@@ -17,24 +17,16 @@
 }
 
 
-.footer-adress {
+.adress-list {
     width: 231px;
 }
 
-.footer-adress .item:not(:last-child) {
+.adress-list__item:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.address-list-item {
-    margin-bottom: 10px;
-}
 
-.address-list-item:last-child {
-    margin-bottom: 0;
-}
-
-.footer-adress-contact,
-.footer-item {
+.adress-list__contact {
     display: inline-block;
 
     color: var(--white-color);
@@ -42,29 +34,43 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.46;
+    line-height: 1.71;
     letter-spacing: 0.03em;
+   
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
+
 }
 
-.footer-item {
+.adress-list__contact-item {
+   
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-decoration: none;
+        font-style: normal;
     color: var(--footer-adress-color);
 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            color: var(--accent-color);
+        }
 }
 
-.footer-adress-contact:hover,
-.footer-adress-contact:focus,
-.footer-adress .footer-item:hover,
-.footer-adress .footer-item:focus {
-    color: var(--accent-color);
-}
 
 .footer-social-media-section {
     width: 206px;
     margin-left: 70px;
 }
 
-.footer-social-media-title {
+.footer-social-media__title {
     font-family: Roboto,
         sans-serif;
     font-weight: 700;
@@ -80,7 +86,7 @@
     display: flex;
 }
 
-.media-link {
+.media-list__link {
     display: flex;
     width: 44px;
     height: 44px;
@@ -89,24 +95,23 @@
     justify-content: center;
     background-color: rgba(255, 255, 255, 0.1);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+        &:focus {
+            background-color: var(--accent-color);
+        }
 }
 
-.media-link:hover,
-.media-link:focus {
-    background-color: var(--accent-color);
-}
 
-.media-item {
+
+.media-list__item {
     margin-right: 10px;
 }
 
-.media-item:last-child {
+.media-list__item:last-child {
     margin-right: 0;
 }
 
-.footer-media-icon {
+.media-list__icon {
     fill: var(--white-color);
-}
-.footer {
-    background-color: var(--primary-hero-footer-color);
 }

@@ -14,20 +14,20 @@
 
 }
 
-.section-list {
+.doing-list {
     display: flex;
 
 }
 
-.section-list .item:not(:last-child) {
+.doing-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.work-img {
+.doing-list__img {
     position: relative;
 }
 
-.text-img {
+.doing-list__text {
     display: flex;
     position: absolute;
     align-items: center;
